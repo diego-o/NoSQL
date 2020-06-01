@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace NoSQL.ConsoleApp
+namespace NoSQL.Test.Model
 {
-    public class Veiculo
+    public class VeiculoModel
     {
         public string modelo { get; set; }
         public string ano { get; set; }

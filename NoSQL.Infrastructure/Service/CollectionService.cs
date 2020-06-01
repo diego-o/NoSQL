@@ -47,7 +47,6 @@ namespace NoSQL.Infrastructure.Service
             _collection.CollectionItens.Remove(_collection.CollectionItens.Find(t => t.Id == id));
 
             var newObj = JsonConvert.DeserializeObject<JObject>(json);
-            newObj.Add("id", id);
             var item = new ItemCollection()
             {
                 Id = id,
